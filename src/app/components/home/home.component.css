@@ -1,0 +1,45 @@
+.menu{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;/*#727972;*/
+}
+select{
+    width: 50%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+button{
+    margin-bottom: 15px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 90%;
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    margin-top: 15px;
+    order: 1;
+    flex: 1 2 40%;
+
+    display: flex; 
+    flex-flow: column wrap; 
+    justify-content: center; 
+    align-items: center;
+}
+.chart{
+    order: 2;
+    flex: 1 2 50%;
+    width: 100%;
+    margin-bottom: 65px;
+}
+.tabla{
+    margin-top: 80px;
+}
